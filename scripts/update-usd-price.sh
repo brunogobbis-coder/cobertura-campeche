@@ -76,6 +76,20 @@ content = re.sub(
     content
 )
 
+# XXXK USD format (fr/de SEO titles without $)
+content = re.sub(
+    r'(?<!\$)\b\d{2,3}K\s*USD\b',
+    f'{usd_k}K USD',
+    content
+)
+
+# USD XXXK format (es ogTitle)
+content = re.sub(
+    r'USD\s+\d{2,3}K\b',
+    f'USD {usd_k}K',
+    content
+)
+
 # French format: XXX XXX $ USD
 content = re.sub(
     r'\d{2,3}\s\d{3}\s\$\s*USD',
