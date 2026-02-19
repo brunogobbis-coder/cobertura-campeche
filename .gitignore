@@ -20,6 +20,9 @@ Thumbs.db
 # Original video (use optimized hero_video_720p.mp4 instead)
 images/hero_video.mp4
 
+# Generated ad videos (regenerate with scripts/generate-story-ad.sh)
+images/story_ad_campeche.mp4
+
 # Unrelated files in images/
 images/public/
 images/tableau_export/
