@@ -1,0 +1,24 @@
+# Robots.txt para subdomínio de imobiliárias
+# Este conteúdo não deve ser indexado pelos buscadores
+
+User-agent: *
+Disallow: /
+
+# Bloquear todos os robôs de busca
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Yahoo! Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /

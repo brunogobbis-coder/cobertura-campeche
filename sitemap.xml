@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Main Page - Portuguese (Default) -->
+  <url>
+    <loc>https://www.coberturacampeche.com.br/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Alternate language versions -->
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.coberturacampeche.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coberturacampeche.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.coberturacampeche.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coberturacampeche.com.br/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.coberturacampeche.com.br/de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.coberturacampeche.com.br/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.coberturacampeche.com.br/"/>
+    
+    <!-- Property Images -->
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/area_externa_1.JPEG</image:loc>
+      <image:title>Terraço da cobertura no Campeche com vista para o mar - Florianópolis</image:title>
+      <image:caption>Amplo terraço com sofás, rede, lareira ao ar livre e vista panorâmica do mar - 7 minutos a pé da praia do Campeche em Florianópolis SC</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/area_externa_2.jpg</image:loc>
+      <image:title>Banheira ao ar livre com água quente no terraço da cobertura Campeche</image:title>
+      <image:caption>Banheira relaxante ao ar livre cercada por plantas tropicais na cobertura à venda no Campeche Florianópolis</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/area_externa_3.JPEG</image:loc>
+      <image:title>Vista externa da cobertura à venda no Campeche Florianópolis</image:title>
+      <image:caption>Fachada da cobertura com arquitetura moderna e terraço amplo no bairro Campeche</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/area_externa_4.JPEG</image:loc>
+      <image:title>Lounge externo com sofá e lareira no terraço da cobertura Campeche</image:title>
+      <image:caption>Área de lounge ao ar livre com sofás e lareira no terraço da cobertura Campeche Florianópolis</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/Sala_Cozinha_0.JPEG</image:loc>
+      <image:title>Cozinha gourmet integrada da cobertura Campeche Florianópolis</image:title>
+      <image:caption>Cozinha moderna com ilha central, cooktop e ambientes integrados na cobertura à venda</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/Sala_Cozinha_5.jpg</image:loc>
+      <image:title>Cozinha gourmet completa com ilha de madeira na cobertura Campeche</image:title>
+      <image:caption>Cozinha gourmet completa com ilha de madeira e vista para a sala na cobertura Campeche</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/Sala_Cozinha_7.jpg</image:loc>
+      <image:title>Sala de jantar integrada na cobertura Campeche Florianópolis</image:title>
+      <image:caption>Sala de jantar integrada com cozinha gourmet e vista panorâmica na cobertura Campeche</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/Sala_Cozinha_10.JPEG</image:loc>
+      <image:title>Sala e cozinha integradas na cobertura Campeche Florianópolis</image:title>
+      <image:caption>Sala e cozinha integradas com ilha gourmet, cooktop e vista para o terraço</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/Quarto_1.jpg</image:loc>
+      <image:title>Suíte master da cobertura à venda no Campeche</image:title>
+      <image:caption>Suíte espaçosa com iluminação natural e acabamento de alto padrão</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/Escritorio_1.JPG</image:loc>
+      <image:title>Escritório home office com claraboia na cobertura Campeche</image:title>
+      <image:caption>Escritório perfeito para trabalho remoto com vista para o terraço e iluminação natural</image:caption>
+      <image:geo_location>Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <!-- Florianópolis Images -->
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/ilha_do_campeche.jpg</image:loc>
+      <image:title>Ilha do Campeche - Patrimônio arqueológico de Florianópolis</image:title>
+      <image:caption>Vista da Ilha do Campeche com águas cristalinas e barcos, a poucos minutos da praia do Campeche</image:caption>
+      <image:geo_location>Ilha do Campeche, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/lagoa_conceicao.jpg</image:loc>
+      <image:title>Lagoa da Conceição - Florianópolis SC</image:title>
+      <image:caption>Vista aérea da Lagoa da Conceição, polo gastronômico e de esportes aquáticos em Florianópolis</image:caption>
+      <image:geo_location>Lagoa da Conceição, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/lagoa_do_peri.jpg</image:loc>
+      <image:title>Lagoa do Peri - Maior reserva de água doce de Florianópolis</image:title>
+      <image:caption>Lagoa do Peri cercada por Mata Atlântica preservada, parque ecológico em Florianópolis</image:caption>
+      <image:geo_location>Lagoa do Peri, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/lagoinha_do_leste.jpg</image:loc>
+      <image:title>Lagoinha do Leste - Praia selvagem em Florianópolis</image:title>
+      <image:caption>Vista do mirante da Lagoinha do Leste, praia intocada acessível por trilha no sul da ilha</image:caption>
+      <image:geo_location>Lagoinha do Leste, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/ponte_hercilio_luz.jpg</image:loc>
+      <image:title>Ponte Hercílio Luz - Cartão postal de Florianópolis</image:title>
+      <image:caption>Ponte Hercílio Luz iluminada à noite com lua crescente, patrimônio histórico de Florianópolis</image:caption>
+      <image:geo_location>Centro, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <image:image>
+      <image:loc>https://www.coberturacampeche.com.br/images/centro_florianopolis.jpg</image:loc>
+      <image:title>Centro de Florianópolis - Vista aérea da Beira Mar Norte</image:title>
+      <image:caption>Vista aérea do centro de Florianópolis com marina e Morro da Cruz ao fundo</image:caption>
+      <image:geo_location>Centro, Florianópolis, SC, Brasil</image:geo_location>
+    </image:image>
+    
+    <!-- Hero Video -->
+    <video:video>
+      <video:thumbnail_loc>https://www.coberturacampeche.com.br/images/area_externa_1.JPEG</video:thumbnail_loc>
+      <video:title>Tour da Cobertura à Venda no Campeche - Penthouse Tour Florianópolis</video:title>
+      <video:description>Vídeo tour da cobertura de 156m² à venda no Campeche, Florianópolis. Vista panorâmica, banheira ao ar livre, churrasqueira, lareira e ambientes integrados.</video:description>
+      <video:content_loc>https://www.coberturacampeche.com.br/images/hero_video.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  
+  <!-- English Version -->
+  <url>
+    <loc>https://www.coberturacampeche.com.br/en</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.coberturacampeche.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coberturacampeche.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.coberturacampeche.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coberturacampeche.com.br/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.coberturacampeche.com.br/de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.coberturacampeche.com.br/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.coberturacampeche.com.br/"/>
+  </url>
+  
+  <!-- Spanish Version -->
+  <url>
+    <loc>https://www.coberturacampeche.com.br/es</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.coberturacampeche.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coberturacampeche.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.coberturacampeche.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coberturacampeche.com.br/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.coberturacampeche.com.br/de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.coberturacampeche.com.br/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.coberturacampeche.com.br/"/>
+  </url>
+  
+  <!-- French Version -->
+  <url>
+    <loc>https://www.coberturacampeche.com.br/fr</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.coberturacampeche.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coberturacampeche.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.coberturacampeche.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coberturacampeche.com.br/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.coberturacampeche.com.br/de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.coberturacampeche.com.br/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.coberturacampeche.com.br/"/>
+  </url>
+  
+  <!-- German Version -->
+  <url>
+    <loc>https://www.coberturacampeche.com.br/de</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.coberturacampeche.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coberturacampeche.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.coberturacampeche.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coberturacampeche.com.br/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.coberturacampeche.com.br/de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.coberturacampeche.com.br/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.coberturacampeche.com.br/"/>
+  </url>
+  
+  <!-- Russian Version -->
+  <url>
+    <loc>https://www.coberturacampeche.com.br/ru</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.coberturacampeche.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coberturacampeche.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.coberturacampeche.com.br/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coberturacampeche.com.br/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.coberturacampeche.com.br/de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.coberturacampeche.com.br/ru"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.coberturacampeche.com.br/"/>
+  </url>
+
+</urlset>

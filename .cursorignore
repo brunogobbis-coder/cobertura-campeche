@@ -1,0 +1,41 @@
+# Node modules
+**/node_modules/
+
+# Imagens
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.gif
+*.svg
+*.ico
+*.webp
+
+# Videos
+*.mp4
+*.webm
+*.avi
+*.mov
+
+# Documentos binarios
+*.pptx
+*.docx
+*.xlsx
+*.pdf
+
+# Build outputs
+**/out/
+**/dist/
+**/build/
+**/.next/
+**/.vercel/
+
+# Mapas e lockfiles
+*.map
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db

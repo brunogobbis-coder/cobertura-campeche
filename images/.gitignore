@@ -1,0 +1,4 @@
+.vercel
+.env
+tableau_export/output/
+tableau_export/.env

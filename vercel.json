@@ -1,0 +1,60 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "imobiliaria.coberturacampeche.com.br" }],
+      "destination": "/imobiliaria/index.html"
+    },
+    {
+      "source": "/:path((?!imobiliaria/).*)",
+      "has": [{ "type": "host", "value": "imobiliaria.coberturacampeche.com.br" }],
+      "destination": "/imobiliaria/:path"
+    },
+    { "source": "/pt", "destination": "/" },
+    { "source": "/en", "destination": "/" },
+    { "source": "/es", "destination": "/" },
+    { "source": "/fr", "destination": "/" },
+    { "source": "/de", "destination": "/" },
+    { "source": "/ru", "destination": "/" },
+    { "source": "/pt/", "destination": "/" },
+    { "source": "/en/", "destination": "/" },
+    { "source": "/es/", "destination": "/" },
+    { "source": "/fr/", "destination": "/" },
+    { "source": "/de/", "destination": "/" },
+    { "source": "/ru/", "destination": "/" },
+    
+    { "source": "/about", "destination": "/" },
+    { "source": "/sobre", "destination": "/" },
+    { "source": "/gallery", "destination": "/" },
+    { "source": "/galeria", "destination": "/" },
+    { "source": "/features", "destination": "/" },
+    { "source": "/caracteristicas", "destination": "/" },
+    { "source": "/location", "destination": "/" },
+    { "source": "/localizacao", "destination": "/" },
+    { "source": "/contact", "destination": "/" },
+    { "source": "/contato", "destination": "/" },
+    { "source": "/quality", "destination": "/" },
+    { "source": "/qualidade", "destination": "/" },
+    
+    { "source": "/:lang/about", "destination": "/" },
+    { "source": "/:lang/sobre", "destination": "/" },
+    { "source": "/:lang/gallery", "destination": "/" },
+    { "source": "/:lang/galeria", "destination": "/" },
+    { "source": "/:lang/features", "destination": "/" },
+    { "source": "/:lang/caracteristicas", "destination": "/" },
+    { "source": "/:lang/location", "destination": "/" },
+    { "source": "/:lang/localizacao", "destination": "/" },
+    { "source": "/:lang/contact", "destination": "/" },
+    { "source": "/:lang/contato", "destination": "/" },
+    { "source": "/:lang/quality", "destination": "/" },
+    { "source": "/:lang/qualidade", "destination": "/" }
+  ],
+  "headers": [
+    {
+      "source": "/imobiliaria/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
+    }
+  ]
+}
