@@ -899,6 +899,7 @@
             bottom: 0;
         }
 
+        .hero-bg picture,
         .hero-bg img,
         .hero-bg video {
             width: 100%;
@@ -907,6 +908,10 @@
             position: absolute;
             top: 0;
             left: 0;
+        }
+
+        .hero-bg picture {
+            z-index: 1;
         }
 
         .hero-bg img {
@@ -920,6 +925,7 @@
             transition: opacity 1s ease-in-out;
         }
 
+        .hero-bg.video-loaded picture,
         .hero-bg.video-loaded img {
             opacity: 0;
         }
@@ -3594,7 +3600,10 @@
     <!-- Hero Section -->
     <section class="hero" itemscope itemtype="https://schema.org/Residence">
         <div class="hero-bg" id="heroBg">
-            <img src="../images/area_externa_1.JPEG" alt="Terraço da cobertura à venda no Campeche com sofás, rede, lareira ao ar livre e vista panorâmica do mar em Florianópolis" loading="eager" fetchpriority="high" id="heroImage">
+            <picture>
+                <source srcset="../images/area_externa_1-480w.webp 480w, ../images/area_externa_1-960w.webp 960w, ../images/area_externa_1.webp 1920w" sizes="100vw" type="image/webp">
+                <img src="../images/area_externa_1.JPEG" alt="Terraço da cobertura à venda no Campeche com sofás, rede, lareira ao ar livre e vista panorâmica do mar em Florianópolis" loading="eager" fetchpriority="high" id="heroImage" width="1920" height="1080">
+            </picture>
             <video id="heroVideo" muted loop playsinline preload="none" aria-label="Vídeo do terraço da cobertura no Campeche com vista panorâmica">
                 <!-- Video source will be set by JavaScript for lazy loading -->
             </video>
@@ -3733,8 +3742,14 @@
                     </div>
                 </div>
                 <div class="about-image" data-animate="fade-left" data-delay="400">
-                    <img src="../images/Sala_Cozinha_10.JPEG" alt="Sala e cozinha integradas da cobertura no Campeche com ilha gourmet, cooktop e vista para o terraço em Florianópolis" class="about-image-main" loading="lazy" width="600" height="550">
-                    <img src="../images/area_externa_2.jpg" alt="Banheira ao ar livre no terraço da cobertura com chuveiro e plantas tropicais no Campeche Florianópolis" class="about-image-accent" loading="lazy" width="200" height="200">
+                    <picture>
+                        <source srcset="../images/Sala_Cozinha_10-480w.webp 480w, ../images/Sala_Cozinha_10-960w.webp 960w, ../images/Sala_Cozinha_10.webp 1920w" sizes="(max-width: 1024px) 100vw, 50vw" type="image/webp">
+                        <img src="../images/Sala_Cozinha_10.JPEG" alt="Sala e cozinha integradas da cobertura no Campeche com ilha gourmet, cooktop e vista para o terraço em Florianópolis" class="about-image-main" loading="lazy" width="600" height="550">
+                    </picture>
+                    <picture>
+                        <source srcset="../images/area_externa_2-480w.webp" type="image/webp">
+                        <img src="../images/area_externa_2.jpg" alt="Banheira ao ar livre no terraço da cobertura com chuveiro e plantas tropicais no Campeche Florianópolis" class="about-image-accent" loading="lazy" width="200" height="200">
+                    </picture>
                     <div class="about-image-frame"></div>
                     </div>
                 </div>
@@ -3754,57 +3769,84 @@
             <div class="gallery-grid stagger-children" role="list" aria-label="Galeria de fotos da cobertura">
                 <!-- Linha 1 -->
                 <div class="gallery-item" onclick="openLightbox(0)" role="listitem" tabindex="0" aria-label="Ver foto do terraço">
-                    <img src="../images/area_externa_3.JPEG" alt="Amplo terraço da cobertura no Campeche com mobiliário externo, rede e vista para o mar em Florianópolis SC" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/area_externa_3-480w.webp 480w, ../images/area_externa_3-960w.webp 960w, ../images/area_externa_3.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/area_externa_3.JPEG" alt="Amplo terraço da cobertura no Campeche com mobiliário externo, rede e vista para o mar em Florianópolis SC" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Terraço" data-en="Terrace" data-es="Terraza" data-fr="Terrasse" data-de="Terrasse" data-ru="Терраса">Terraço</span>
                     </div>
                 </div>
                 <div class="gallery-item" onclick="openLightbox(1)" role="listitem" tabindex="0" aria-label="Ver foto da cozinha">
-                    <img src="../images/Sala_Cozinha_0.JPEG" alt="Cozinha gourmet integrada com ilha central, cooktop 5 bocas e bancada em inox na cobertura Campeche Florianópolis" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/Sala_Cozinha_0-480w.webp 480w, ../images/Sala_Cozinha_0-960w.webp 960w, ../images/Sala_Cozinha_0.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/Sala_Cozinha_0.JPEG" alt="Cozinha gourmet integrada com ilha central, cooktop 5 bocas e bancada em inox na cobertura Campeche Florianópolis" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Cozinha" data-en="Kitchen" data-es="Cocina" data-fr="Cuisine" data-de="Küche" data-ru="Кухня">Cozinha</span>
                     </div>
                 </div>
                 <div class="gallery-item" onclick="openLightbox(2)" role="listitem" tabindex="0" aria-label="Ver foto da suíte">
-                    <img src="../images/Quarto_1.jpg" alt="Suíte master espaçosa com iluminação natural e acesso ao terraço na cobertura à venda no Campeche" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/Quarto_1-480w.webp 480w, ../images/Quarto_1-960w.webp 960w, ../images/Quarto_1.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/Quarto_1.jpg" alt="Suíte master espaçosa com iluminação natural e acesso ao terraço na cobertura à venda no Campeche" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Suíte" data-en="Suite" data-es="Suite" data-fr="Suite" data-de="Suite" data-ru="Сьют">Suíte</span>
                     </div>
                 </div>
                 <!-- Linha 2 -->
                 <div class="gallery-item" onclick="openLightbox(3)" role="listitem" tabindex="0" aria-label="Ver foto da vista">
-                    <img src="../images/area_externa_1.JPEG" alt="Vista panorâmica do terraço para o mar e montanhas no Campeche Florianópolis" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/area_externa_1-480w.webp 480w, ../images/area_externa_1-960w.webp 960w, ../images/area_externa_1.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/area_externa_1.JPEG" alt="Vista panorâmica do terraço para o mar e montanhas no Campeche Florianópolis" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Vista" data-en="View" data-es="Vista" data-fr="Vue" data-de="Aussicht" data-ru="Вид">Vista</span>
                     </div>
                 </div>
                 <div class="gallery-item" onclick="openLightbox(4)" role="listitem" tabindex="0" aria-label="Ver foto da sala de jantar">
-                    <img src="../images/Sala_Cozinha_7.jpg" alt="Sala de jantar integrada com cozinha gourmet e vista panorâmica na cobertura Campeche" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/Sala_Cozinha_7-480w.webp 480w, ../images/Sala_Cozinha_7-960w.webp 960w, ../images/Sala_Cozinha_7.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/Sala_Cozinha_7.jpg" alt="Sala de jantar integrada com cozinha gourmet e vista panorâmica na cobertura Campeche" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Sala de Jantar" data-en="Dining Room" data-es="Comedor" data-fr="Salle à Manger" data-de="Esszimmer" data-ru="Столовая">Sala de Jantar</span>
                     </div>
                 </div>
                 <div class="gallery-item" onclick="openLightbox(5)" role="listitem" tabindex="0" aria-label="Ver foto do escritório">
-                    <img src="../images/Escritorio_1.JPG" alt="Escritório home office com claraboia, mesa de madeira e vista para o terraço na cobertura Campeche Florianópolis" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/Escritorio_1-480w.webp 480w, ../images/Escritorio_1-960w.webp 960w, ../images/Escritorio_1.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/Escritorio_1.JPG" alt="Escritório home office com claraboia, mesa de madeira e vista para o terraço na cobertura Campeche Florianópolis" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Escritório" data-en="Office" data-es="Oficina" data-fr="Bureau" data-de="Büro" data-ru="Офис">Escritório</span>
                     </div>
                 </div>
                 <!-- Linha 3 -->
                 <div class="gallery-item" onclick="openLightbox(6)" role="listitem" tabindex="0" aria-label="Ver foto da banheira externa">
-                    <img src="../images/area_externa_2.jpg" alt="Banheira relaxante ao ar livre com ducha no terraço cercado por plantas tropicais na cobertura Campeche" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/area_externa_2-480w.webp 480w, ../images/area_externa_2-960w.webp 960w, ../images/area_externa_2.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/area_externa_2.jpg" alt="Banheira relaxante ao ar livre com ducha no terraço cercado por plantas tropicais na cobertura Campeche" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Banheira com Água Quente" data-en="Hot Water Bathtub" data-es="Bañera con Agua Caliente" data-fr="Baignoire à Eau Chaude" data-de="Warmwasser-Badewanne" data-ru="Ванна с Горячей Водой">Banheira com Água Quente</span>
                     </div>
                 </div>
                 <div class="gallery-item" onclick="openLightbox(7)" role="listitem" tabindex="0" aria-label="Ver foto da cozinha gourmet">
-                    <img src="../images/Sala_Cozinha_5.jpg" alt="Cozinha gourmet completa com ilha de madeira e vista para a sala na cobertura Campeche" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/Sala_Cozinha_5-480w.webp 480w, ../images/Sala_Cozinha_5-960w.webp 960w, ../images/Sala_Cozinha_5.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/Sala_Cozinha_5.jpg" alt="Cozinha gourmet completa com ilha de madeira e vista para a sala na cobertura Campeche" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Cozinha Gourmet" data-en="Gourmet Kitchen" data-es="Cocina Gourmet" data-fr="Cuisine Gastronomique" data-de="Gourmetküche" data-ru="Гурмэ-Кухня">Cozinha Gourmet</span>
                     </div>
                 </div>
                 <div class="gallery-item" onclick="openLightbox(8)" role="listitem" tabindex="0" aria-label="Ver foto do lounge externo">
-                    <img src="../images/area_externa_4.JPEG" alt="Lounge externo com sofá e lareira no terraço da cobertura Campeche Florianópolis" loading="lazy" width="400" height="280">
+                    <picture>
+                        <source srcset="../images/area_externa_4-480w.webp 480w, ../images/area_externa_4-960w.webp 960w, ../images/area_externa_4.webp 1920w" sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+                        <img src="../images/area_externa_4.JPEG" alt="Lounge externo com sofá e lareira no terraço da cobertura Campeche Florianópolis" loading="lazy" width="400" height="280">
+                    </picture>
                     <div class="gallery-overlay">
                         <span class="gallery-label" data-pt="Lounge" data-en="Lounge" data-es="Salón" data-fr="Salon" data-de="Lounge" data-ru="Лаундж">Lounge</span>
                     </div>
@@ -4590,15 +4632,15 @@
 
         // ===== GALLERY LIGHTBOX =====
         const galleryImages = [
-            '../images/area_externa_3.JPEG',
-            '../images/Sala_Cozinha_0.JPEG',
-            '../images/Quarto_1.jpg',
-            '../images/area_externa_1.JPEG',
-            '../images/Sala_Cozinha_7.jpg',
-            '../images/Escritorio_1.JPG',
-            '../images/area_externa_2.jpg',
-            '../images/Sala_Cozinha_5.jpg',
-            '../images/area_externa_4.JPEG'
+            '../images/area_externa_3.webp',
+            '../images/Sala_Cozinha_0.webp',
+            '../images/Quarto_1.webp',
+            '../images/area_externa_1.webp',
+            '../images/Sala_Cozinha_7.webp',
+            '../images/Escritorio_1.webp',
+            '../images/area_externa_2.webp',
+            '../images/Sala_Cozinha_5.webp',
+            '../images/area_externa_4.webp'
         ];
         
         let currentImageIndex = 0;
